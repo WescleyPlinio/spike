@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark-custom fixed-top shadow">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top shadow">
             <div className="container">
                 <a className="navbar-brand" href="#">
                     <i className="bi bi-puzzle-fill me-2 logo-accent"></i>
@@ -16,7 +16,7 @@ export default function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
-                            <a className="nav-link active" href="#home">Início</a>
+                            <a className="nav-link btn btn-dark bg-primary-custom" href="#home">Início</a>
                         </li>
                     </ul>
                 </div>
