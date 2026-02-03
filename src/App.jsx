@@ -1,7 +1,8 @@
-import Navbar from './navbar.jsx'
-import Card from './card.jsx'
-import Footer from './footer.jsx'
-import Hero from './hero.jsx'
+import Navbar from './components/Navbar.jsx'
+import Card from './Card.jsx'
+import Footer from './components/Footer.jsx'
+import Hero from './components/Hero.jsx'
+import './App.css'
 
 function App() {
   return (

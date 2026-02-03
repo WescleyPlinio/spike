@@ -18,6 +18,7 @@ export default function Footer(){
                     <h5 className="fw-bold mb-3">Links Rápidos</h5>
                     <ul className="list-unstyled footer-links">
                         <li className="mb-2"><a href="#home">Início</a></li>
+                        <li className="mb-2"><a href="#home">Dublagem</a></li>
                     </ul>
                 </div>
                 
@@ -37,7 +38,7 @@ export default function Footer(){
                     <p className="mb-0">&copy; 2023 Spike Cross Fans. Todos os direitos reservados.</p>
                 </div>
                 <div className="col-md-6 text-md-end">
-                    <p className="mb-0">Este site é mantido por do Spike Cross.</p>
+                    <p className="mb-0">Este site é mantido por fãs do Spike Cross.</p>
                 </div>
             </div>
         </div>

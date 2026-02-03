@@ -1,0 +1,83 @@
+:root {
+    --primary-color: #4a6fa5;
+    --secondary-color: #ff6b6b;
+    --accent-color: #ffd166;
+    --dark-color: #2d3047;
+    --light-color: #f8f9fa;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.bg-primary-custom {
+    background-color: var(--primary-color) !important;
+}
+
+.bg-secondary-custom {
+    background-color: var(--secondary-color) !important;
+}
+
+.bg-accent-custom {
+    background-color: var(--accent-color) !important;
+}
+
+.bg-dark-custom {
+    background-color: var(--dark-color) !important;
+}
+
+.text-primary-custom {
+    color: var(--primary-color) !important;
+}
+
+.text-secondary-custom {
+    color: var(--secondary-color) !important;
+}
+
+.text-accent-custom {
+    color: var(--accent-color) !important;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.fixed-bg {
+    position: relative;
+    height: 650px;
+
+    background-image: url('/imgs/all.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fixed-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.796);
+    z-index: 1;
+}
+
+.fixed-bg>* {
+    position: relative;
+    z-index: 2;
+}
+
+.navbar {
+    transition: 0.3s ease !important;
+}
