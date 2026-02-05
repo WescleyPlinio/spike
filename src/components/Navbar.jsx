@@ -18,24 +18,22 @@ export default function Navbar() {
     }, []);
 
     return (
-        <nav className={`navbar navbar-expand-lg navbar-dark fixed-top shadow ${scrolled ? "bg-dark-custom" : "bg-transparent"}`}>
+        <nav className={`navbar navbar-expand-lg navbar-dark fixed-top shadow ${scrolled ? "bg-primary-custom" : "bg-transparent"}`}>
             <div className="container">
-                <a className="navbar-brand" href="#">
-                    <i className="fa fa-volleyball logo-accent me-2"></i>
-                    Spike <span className="logo-accent">Cross</span> Fans
-                </a>
-
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
                 <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav ms-auto">
+                    <ul className="navbar-nav mx-auto">
                         <li className="nav-item">
-                            <a className="nav-link" href="#home">Início</a>
+                            <a className="nav-link active" href="#home">Início</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#home">Dublagem</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#home">Sobre nós</a>
                         </li>
                     </ul>
                 </div>

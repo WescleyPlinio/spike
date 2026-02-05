@@ -1,9 +1,8 @@
 :root {
     --primary-color: #4a6fa5;
-    --secondary-color: #ff6b6b;
     --accent-color: #ffd166;
     --dark-color: #2d3047;
-    --light-color: #f8f9fa;
+    --ultra-dark-color: #1d1f30;
 }
 
 body {
@@ -25,10 +24,6 @@ h6 {
     background-color: var(--primary-color) !important;
 }
 
-.bg-secondary-custom {
-    background-color: var(--secondary-color) !important;
-}
-
 .bg-accent-custom {
     background-color: var(--accent-color) !important;
 }
@@ -36,13 +31,12 @@ h6 {
 .bg-dark-custom {
     background-color: var(--dark-color) !important;
 }
+.bg-ultra-dark-custom {
+    background-color: var(--ultra-dark-color) !important;
+}
 
 .text-primary-custom {
     color: var(--primary-color) !important;
-}
-
-.text-secondary-custom {
-    color: var(--secondary-color) !important;
 }
 
 .text-accent-custom {
