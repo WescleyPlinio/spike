@@ -18,7 +18,7 @@ export default function Navbar() {
     }, []);
 
     return (
-        <nav className={`navbar navbar-expand-lg navbar-dark fixed-top shadow ${scrolled ? "bg-primary-custom" : "bg-transparent"}`}>
+        <nav className={`navbar navbar-expand-lg navbar-dark fixed-top ${scrolled ? "bg-primary-custom shadow shadow-lg" : "bg-transparent pt-5"}`}>
             <div className="container">
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span className="navbar-toggler-icon"></span>
