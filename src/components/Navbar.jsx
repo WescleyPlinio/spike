@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react"
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
     const [scrolled, setScrolled] = useState(false);
@@ -27,13 +28,13 @@ export default function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav mx-auto">
                         <li className="nav-item">
-                            <a className="nav-link active" href="#home">Início</a>
+                            <Link className="nav-link active" to='/'>Início</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#home">Dublagem</a>
+                            <Link className="nav-link" to='/'>Dublagem</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#home">Sobre nós</a>
+                            <Link className='nav-link' to='/sobre'>Sobre nós</Link>
                         </li>
                     </ul>
                 </div>
